@@ -1,4 +1,4 @@
-    const chatInterface = document.getElementById('chat-interface');
+    var chatInterface = document.getElementById('chat-interface');
     const myVideoSample = document.getElementById('my-video-sample');
     const myVideo = document.getElementById('my-video');
     const remoteVideo = document.getElementById('remote-video');
