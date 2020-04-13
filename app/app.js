@@ -167,6 +167,7 @@ const initWebRtcApp = () => {
                     request(turnApiUrl, 'PUT', {
                         'headers': { 'tok': turnToken }
                     }).then((response) => {
+                        console.log(response)
                         rtcConfig.iceServers = [response];
                         webRtcPhone.callUser(userToCall, {
                             myStream: myAudioVideoStream
