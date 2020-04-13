@@ -49,6 +49,7 @@ const noVideoTimeoutMS = 5000; // Error alert if the video fails to connect
 const turnApiUrl = 'https://ps.pndsn.com/v1/blocks/sub-key/sub-c-51f49bda-7d07-11ea-87e8-c6dd1f7701c5/turn-credentials';
 let turnToken;
 request(turnApiUrl, 'GET').then((response) => { turnToken = response });
+console.log(turnToken)
 
 // Init the audio and video stream on this client
 getLocalStream().then((localMediaStream) => {
