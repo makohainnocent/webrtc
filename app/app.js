@@ -183,8 +183,8 @@ const initWebRtcApp = () => {
     };
 
     pubnub = new PubNub({
-        publishKey : 'pub-c-f2238dd7-3f40-4ab9-909d-7a0930ef5dab',
-        subscribeKey : 'sub-c-6bd35c4a-808c-11e8-b3dc-56529179b978'
+        publishKey : 'pub-c-1c27b6b3-c53a-4fd6-94f1-2e048abb3bd8',
+        subscribeKey : 'sub-c-51f49bda-7d07-11ea-87e8-c6dd1f7701c5'
     });
 
     // This PubNub listener powers the text chat and online user list population.
